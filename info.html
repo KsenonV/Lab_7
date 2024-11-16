@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Киану Ривз</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body data-spy="scroll" data-target="#sidebar" data-offset="70">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Киану Ривз</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="info.html">Основная информация</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="films.html">Список фильмов</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="d-flex">
+        <div id="sidebar" class="bg-light p-3" style="width: 200px;">
+            <h5>Содержание</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" href="#carousel">Карусель</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#movies">Фильмы</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#info">Информация об актёре</a>
+                </li>
+            </ul>
+        </div>
+        <div class="flex-grow-1 p-3">
+
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active text-center">
+                        <img src="1_act.webp" class="d-block w-50 mx-auto" alt="Фото актёра" style="max-width: 100%; height: auto;">
+                    </div>
+                    <div class="carousel-item text-center">
+                        <img src="2_act.webp" class="d-block w-50 mx-auto" alt="Фото актёра" style="max-width: 100%; height: auto;">
+                    </div>
+                    <div class="carousel-item text-center">
+                        <img src="3_act.webp" class="d-block w-50 mx-auto" alt="Фото актёра" style="max-width: 100%; height: auto;">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Предыдущий</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Следующий</span>
+                </a>
+            </div>
+
+            <div id="movies" class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="1_film.webp" class="card-img-top" alt="Постер фильма">
+                        <div class="card-body">
+                            <h5 class="card-title">Матрица (1999)</h5>
+                            <p class="card-text">Жизнь Томаса Андерсона разделена на две части: днём он — самый обычный офисный работник, получающий нагоняи от начальства, а ночью превращается в хакера по имени Нео, и нет места в сети, куда он бы не смог проникнуть. Но однажды всё меняется. Томас узнаёт ужасающую правду о реальности.</p>
+                            <a href="https://www.kinopoisk.ru/film/301/" class="btn btn-primary">Смотреть на Кинопоиск</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="2_film.webp" class="card-img-top" alt="Постер фильма">
+                        <div class="card-body">
+                            <h5 class="card-title">Джон Уик (2014)</h5>
+                            <p class="card-text">Джон Уик - на первый взгляд, самый обычный среднестатистический американец, который ведет спокойную мирную жизнь. Однако мало кто знает, что он был наёмным убийцей, причём одним из лучших профессионалов в своём деле.
+                                После того как сынок главы бандитской группы со своими приятелями угоняет его любимый «Мустанг» 1969 года выпуска, при этом убив его собаку Дейзи, которая была подарком недавно почившей супруги, Джон вынужден вернуться к своему прошлому. Теперь Уик начинает охоту за теми, кто имел неосторожность перейти ему дорогу, и он готов на всё, чтобы отомстить.</p>
+                            <a href="https://www.kinopoisk.ru/film/762738/" class="btn btn-primary">Смотреть на Кинопоиск</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="3_film.webp" class="card-img-top" alt="Постер фильма">
+                        <div class="card-body">
+                            <h5 class="card-title">Джон Уик 4 (2023)</h5>
+                            <p class="card-text">Оставляя за собой горы трупов, Джон Уик продолжает скрываться от всевозможных наёмных убийц, и теперь охоту на него возглавляет молодой и честолюбивый член Правления по имени Маркиз. Два управляющих отелями «Континенталь» в Нью-Йорке и Осаке, решившие по старой дружбе помочь своенравному киллеру, уже жестоко за это поплатились, но внезапно Джон узнаёт способ выбраться из этой, казалось бы, безвыходной ситуации.</p>
+                            <a href="https://www.kinopoisk.ru/film/1267348/" class="btn btn-primary">Смотреть на Кинопоиск</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="info" class="mt-4">
+                <button class="btn btn-info" data-toggle="collapse" data-target="#actorInfo">Об актере</button>
+                <div class="collapse" id="actorInfo">
+                    <p>
+                        Киану Ривз — канадский актёр, кинорежиссёр, кинопродюсер и музыкант (бас-гитарист). Родился 2 сентября 1964 года в Бейруте, Ливан.
+                        Наиболее известен своими ролями в киносериях «Билл и Тед» (1989–2020), «Матрица» (1999–2021) и «Джон Уик» (с 2014).
+                        Также снимался в следующих фильмах: «На гребне волны», «Мой личный штат Айдахо», «Дракула», «Скорость», «Джонни-мнемоник», «Адвокат дьявола», «Константин: Повелитель тьмы», «Короли улиц» и «47 ронинов».
+                        В 2013 году Ривз дебютировал в качестве режиссёра, сняв фильм о боевых искусствах «Мастер тай-цзи».
+                        Обладатель премий канала MTV. 31 января 2005 года получил звезду на голливудской «Аллее славы».
+                    </p> 
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
